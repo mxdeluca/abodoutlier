@@ -62,6 +62,7 @@ abod <- function(data, method = "complete", n_sample_size = trunc(nrow(data)/10)
         cat("Done: ", i, "/", n, "\n")
       }
     }
+    print(paste("i is",i,sep = "))
     return(abof)
   }
 
